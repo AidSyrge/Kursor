@@ -3,7 +3,7 @@ name: Build and Deploy Kursor Server
 on:
   push:
     branches:
-      - main   # триггерим на пуш в main
+      - master   # триггерим на пуш в main
 
 jobs:
   build-and-push:
